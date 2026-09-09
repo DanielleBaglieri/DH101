@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Danielle Baglieri - Digital Humanities 101 Portfolio, Critical Making Projects, and Resume.">
+  <meta name="author" content="Danielle Baglieri">
+  <title>Danielle Baglieri | DH101 Portfolio & Resume</title>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#hero" class="nav-brand" aria-label="Danielle Baglieri Homepage">
+        <div class="nav-logo-mark">DB</div>
+        <div class="nav-brand-text">
+          <span class="nav-brand-name">Danielle Baglieri</span>
+          <span class="nav-brand-tag">DH101 Critical Making</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#resume" class="nav-link" style="color: var(--accent-primary); font-weight: 700;">Resume</a></li>
+          <li><a href="#makes" class="nav-link">Weekly Makes</a></li>
+          <li><a href="#reflections" class="nav-link">Reflections</a></li>
+          <li><a href="#about" class="nav-link">About & Ethics</a></li>
+          <li><a href="resume.html" class="nav-link" title="Open Standalone Printable Resume">CV Page ↗</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Switch to light mode">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+        </button>
+
+        <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg style="width: 1.25rem; height: 1.25rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="section hero" id="hero">
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          <span>Digital Humanities 101 • Critical Making Portfolio</span>
+        </div>
+        
+        <h1 class="hero-title">
+          Exploring the Intersection of <span class="gradient-text">Humanities, Technology & Critical Making</span>
+        </h1>
+        
+        <p class="hero-description">
+          Welcome to Danielle Baglieri’s digital repository. This platform presents 13 weeks of hands-on critical making, computational reflection, and creative inquiry into digital culture, artificial intelligence, and media aesthetics.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#resume" class="btn btn-primary">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            View Resume & CV
+          </a>
+          <a href="#makes" class="btn btn-secondary">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+            </svg>
+            Explore 13 Makes
+          </a>
+          <a href="#about" class="btn btn-outline">
+            AI & Ethics Statements →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Resume Section
+         ====================================================================== -->
+    <section class="section" id="resume">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Curriculum Vitae</span>
+          <h2 class="section-title">Resume & Background</h2>
+          <p class="section-subtitle">
+            Academic background, technical proficiencies, research experience, and creative competencies in Digital Humanities.
+          </p>
+        </div>
+
+        <div class="resume-card" id="printable-resume">
+          <!-- Resume Header Row -->
+          <div class="resume-header-row">
+            <div>
+              <h3 class="resume-name">Danielle Baglieri</h3>
+              <div class="resume-title-tag">Digital Humanities Researcher • Creative Technologist • Critical Maker</div>
+              
+              <div class="resume-contact-links">
+                <span class="resume-contact-item">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  <a href="mailto:danielle.baglieri@example.edu" class="copy-email-btn" data-email="danielle.baglieri@example.edu" title="Click to copy email">danielle.baglieri@example.edu</a>
+                </span>
+
+                <span class="resume-contact-item">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                  </svg>
+                  <a href="https://github.com/DanielleBaglieri/DH101" target="_blank" rel="noopener noreferrer">github.com/DanielleBaglieri/DH101</a>
+                </span>
+
+                <span class="resume-contact-item">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <span>University Campus / New York</span>
+                </span>
+              </div>
+            </div>
+
+            <!-- Resume Action Controls -->
+            <div class="resume-action-buttons">
+              <button id="print-resume-btn" class="btn btn-primary" title="Print this resume or save as PDF">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+                </svg>
+                Print / Save PDF
+              </button>
+              
+              <a href="resume.html" class="btn btn-secondary" title="View standalone clean resume page">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                Standalone View
+              </a>
+            </div>
+          </div>
+
+          <!-- Professional Summary -->
+          <div class="resume-grid">
+            <div>
+              <h4 class="resume-section-heading">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+                Professional Profile
+              </h4>
+              <p class="resume-summary-text">
+                Interdisciplinary scholar and creator operating at the nexus of Digital Humanities, media theory, and critical technology studies. Experienced in combining creative fabrication, computational text analysis, interface prototyping, and ethical evaluation of generative AI systems. Dedicated to producing accessible, transparent, and ecologically conscious digital artifacts.
+              </p>
+            </div>
+
+            <!-- Education -->
+            <div>
+              <h4 class="resume-section-heading">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                </svg>
+                Education
+              </h4>
+              <div class="resume-items">
+                <div class="resume-item">
+                  <div class="resume-item-top">
+                    <span class="resume-item-title">Bachelor of Arts in Digital Humanities / Media & Information Studies</span>
+                    <span class="resume-item-date">Expected 2026</span>
+                  </div>
+                  <div class="resume-item-subtitle">Undergraduate Program • Academic Excellence</div>
+                  <ul class="resume-bullets">
+                    <li><strong>Key Coursework:</strong> DH101: Critical Making in the Age of AI, Computational Text Analysis, Interactive Media Design, Algorithmic Ethics, Data Visualization.</li>
+                    <li><strong>Research Focus:</strong> Generative AI epistemology, reverse-engineering black-box algorithms, labor and environmental impacts of large language models.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skills Matrix -->
+            <div>
+              <h4 class="resume-section-heading">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+                Skills & Technical Competencies
+              </h4>
+
+              <div class="skills-group-grid">
+                <!-- Group 1 -->
+                <div class="skill-category-card">
+                  <div class="skill-category-title">
+                    Digital Humanities & Analysis
+                  </div>
+                  <div class="skill-pills">
+                    <span class="skill-pill">Critical Making</span>
+                    <span class="skill-pill">Distant Reading</span>
+                    <span class="skill-pill">Corpus Analysis</span>
+                    <span class="skill-pill">Text Mining</span>
+                    <span class="skill-pill">Network Visualization</span>
+                    <span class="skill-pill">Digital Archiving</span>
+                  </div>
+                </div>
+
+                <!-- Group 2 -->
+                <div class="skill-category-card">
+                  <div class="skill-category-title">
+                    Web & Computation
+                  </div>
+                  <div class="skill-pills">
+                    <span class="skill-pill">HTML5 & Semantic Markup</span>
+                    <span class="skill-pill">Modern CSS3 & Grid/Flexbox</span>
+                    <span class="skill-pill">Vanilla JavaScript</span>
+                    <span class="skill-pill">Git & GitHub Pages</span>
+                    <span class="skill-pill">Markdown</span>
+                    <span class="skill-pill">Python (Data/Text)</span>
+                  </div>
+                </div>
+
+                <!-- Group 3 -->
+                <div class="skill-category-card">
+                  <div class="skill-category-title">
+                    Creative Media & Design
+                  </div>
+                  <div class="skill-pills">
+                    <span class="skill-pill">Visual Storytelling</span>
+                    <span class="skill-pill">UI/UX Prototyping</span>
+                    <span class="skill-pill">Sequential Art & Comics</span>
+                    <span class="skill-pill">Remix Culture & GIF Design</span>
+                    <span class="skill-pill">Procedural Generation</span>
+                    <span class="skill-pill">Speculative Design</span>
+                  </div>
+                </div>
+
+                <!-- Group 4 -->
+                <div class="skill-category-card">
+                  <div class="skill-category-title">
+                    Critical Theory & Ethics
+                  </div>
+                  <div class="skill-pills">
+                    <span class="skill-pill">Algorithmic Accountability</span>
+                    <span class="skill-pill">AI Provenance & Attribution</span>
+                    <span class="skill-pill">Platform Labor Studies</span>
+                    <span class="skill-pill">Computing Ecology & Carbon Auditing</span>
+                    <span class="skill-pill">Digital Accessibility (WCAG)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience & Academic Projects -->
+            <div>
+              <h4 class="resume-section-heading">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                Experience & Major Projects
+              </h4>
+              <div class="resume-items">
+                <div class="resume-item">
+                  <div class="resume-item-top">
+                    <span class="resume-item-title">Lead Author & Creator • DH101 Critical Making Portfolio</span>
+                    <span class="resume-item-date">Spring 2026</span>
+                  </div>
+                  <div class="resume-item-subtitle">Digital Humanities Laboratory & Web Publication</div>
+                  <ul class="resume-bullets">
+                    <li>Engineered and curated an open-access web archive documenting 13 weekly making experiments interrogating algorithmic bias, computational power, and media forms.</li>
+                    <li>Designed an accessible, high-performance static web interface adhering to WCAG standards with dark/light theming, dynamic filtering, and modular documentation.</li>
+                    <li>Implemented strict transparency frameworks for AI co-creation, documenting prompt trajectories, tool attributions, and human editorial boundaries.</li>
+                  </ul>
+                </div>
+
+                <div class="resume-item">
+                  <div class="resume-item-top">
+                    <span class="resume-item-title">Digital Humanities Researcher & Media Analyst</span>
+                    <span class="resume-item-date">2025 – Present</span>
+                  </div>
+                  <div class="resume-item-subtitle">Academic Research & Critical Inquiry</div>
+                  <ul class="resume-bullets">
+                    <li>Conducted distant reading and computational corpus analysis on historical and contemporary media texts to uncover subtle semantic shifts.</li>
+                    <li>Mapped physical supply chains, compute infrastructures, and ghost labor networks underpinning modern generative artificial intelligence platforms.</li>
+                    <li>Published structured research logs, methodology reflections, and collaborative documentation on GitHub.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Leadership, Service & Memberships -->
+            <div>
+              <h4 class="resume-section-heading">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                </svg>
+                Leadership, Awards & Academic Community
+              </h4>
+              <div class="resume-items">
+                <div class="resume-item">
+                  <div class="resume-item-top">
+                    <span class="resume-item-title">Member, Digital Humanities & New Media Student Collective</span>
+                    <span class="resume-item-date">2025 – Present</span>
+                  </div>
+                  <div class="resume-item-subtitle">Community Workshop Organizer & Peer Mentor</div>
+                  <ul class="resume-bullets">
+                    <li>Facilitated peer discussions on critical making practices, ethical software development, and open-source humanities research tools.</li>
+                    <li>Advocated for sustainable computing and digital accessibility across undergraduate departmental projects.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Weekly Makes Gallery Section
+         ====================================================================== -->
+    <section class="section" id="makes">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Hands-On Practice</span>
+          <h2 class="section-title">13 Weeks of Critical Making</h2>
+          <p class="section-subtitle">
+            Artifacts, prototypes, and creative disruptions designed to interrogate the technical, social, and aesthetic dimensions of digital systems.
+          </p>
+        </div>
+
+        <!-- Filter and Search Controls -->
+        <div class="filter-bar">
+          <div class="filter-pills">
+            <button class="filter-btn active" data-filter="all">All Weeks</button>
+            <button class="filter-btn" data-filter="making">Design & Media</button>
+            <button class="filter-btn" data-filter="data">Data & Text</button>
+            <button class="filter-btn" data-filter="ethics">AI & Society</button>
+            <button class="filter-btn" data-filter="games">Games & Bots</button>
+          </div>
+
+          <div class="search-input-wrapper">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input type="text" id="makes-search" class="search-input" placeholder="Search by topic, keyword, or tool..." aria-label="Search weekly makes">
+          </div>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="makes-grid" id="makes-grid">
+          
+          <!-- Week 1 -->
+          <article class="make-card" data-category="making">
+            <div>
+              <div class="make-card-header">
+                <span class="make-week-tag">Week 01</span>
+                <span class="make-status-badge">Documented</span>
+              </div>
+              <h3 class="make-title">Reverse Engineering</h3>
+              <p class="make-desc">
+                Disassembling everyday digital mechanisms and black-box algorithms to reveal underlying assumptions, hidden interfaces, and structural logic.
+              </p>
+              <div class="make-tags">
+                <span class="make-tag-pill">Deconstruction</span>
+                <span class="make-tag-pill">Black Box</span>
+                <span class="make-tag-pill">Media Archaeology</span>
+              </div>
+            </div>
+            <div class="make-card-footer">
+              <button class="btn-text view-make-details-btn" data-week-file="week01.md">
+                View Artifact & Notes
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Week 3 -->
+          <article class="make-card" data-category="making ethics">
+            <div>
+              <div class="make-card-header">
+                <span class="make-week-tag">Week 03</span>
+                <span class="make-status-badge">Documented</span>
+              </div>
+              <h3 class="make-title">Selfie & Identity</h3>
+              <p class="make-desc">
+                Critiquing algorithmic portraiture, computer vision biometric surveillance, facial recognition datasets, and the mediation of self-image.
+              </p>
+              <div class="make-tags">
+                <span class="make-tag-pill">Biometrics</span>
+                <span class="make-tag-pill">Identity</span>
+                <span class="make-tag-pill">Surveillance</span>
+              </div>
+            </div>
+            <div class="make-card-footer">
+              <button class="btn-text view-make-details-btn" data-week-file="week03.md">
+                View Artifact & Notes
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Week 4 -->
+          <article class="make-card" data-category="making">
+            <div>
+              <div class="make-card-header">
+                <span class="make-week-tag">Week 04</span>
+                <span class="make-status-badge">Documented</span>
+              </div>
+              <h3 class="make-title">Comic & Storytelling</h3>
+              <p class="make-desc">
+                Designing sequential narratives and visual frames to communicate complex computational paradigms and human-machine interaction dilemmas.
+              </p>
+              <div class="make-tags">
+                <span class="make-tag-pill">Sequential Art</span>
+                <span class="make-tag-pill">Narrative</span>
+                <span class="make-tag-pill">Visual Framing</span>
+              </div>
+            </div>
+            <div class="make-card-footer">
+              <button class="btn-text view-make-details-btn" data-week-file="week04.md">
+                View Artifact & Notes
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Week 5 -->
+          <article class="make-card" data-category="making">
+            <div>
+              <div class="make-card-header">
+                <span class="make-week-tag">Week 05</span>
+                <span class="make-status-badge">Documented</span>
+              </div>
+              <h3 class="make-title">GIF & Remix Culture</h3>
+              <p class="make-desc">
+                Exploring memetic circulation, temporal looping, fair use, and cultural collage through the critical production of animated short-form media.
+              </p>
+              <div class="make-tags">
+                <span class="make-tag-pill">Remix</span>
+                <span class="make-tag-pill">Animation</span>
+                <span class="make-tag-pill">Memetics</span>
+              </div>
+            </div>
+            <div class="make-card-footer">
+              <button class="btn-text view-make-details-btn" data-week-file="week05.md">
+                View Artifact & Notes
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Week 6 -->
+          <article class="make-card" data-category="data">
+            <div>
+              <div class="make-card-header">
+                <span class="make-week-tag">Week 06</span>
+                <span class="make-status-badge">Documented</span>
+              </div>
+              <h3 class="make-title">Text & Distant Reading</h3>
+              <p class="make-desc">
+                Applying computational text analysis, concordance mapping, and n-gram frequency distributions to unearth macroscopic patterns across textual corpora.
+              </p>
+              <div class="make-tags">
+                <span class="make-tag-pill">NLP</span>
+                <span class="make-tag-pill">Corpus Analysis</span>
+                <span class="make-tag-pill">Distant Reading</span>
+              </div>
+            </div>
+            <div class="make-card-footer">
+              <button class="btn-text view-make-details-btn" data-week-file="week06.md">
+                View Artifact & Notes
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Week 7 -->
+          <article class="make-card" data-category="data ethics">
+            <div>
+              <div class="make-card-header">
+                <span class="make-week-tag">Week 07</span>
+                <span class="make-status-badge">Documented</span>
+              </div>
+              <h3 class="make-title">Mapping AI Worlds</h3>
+              <p class="make-desc">
+                Spatializing AI infrastructures: undersea fiber optic cables, rare earth mineral extraction, and geographic datacenter distribution.
+              </p>
+              <div class="make-tags">
+                <span class="make-tag-pill">Cartography</span>
+                <span class="make-tag-pill">Infrastructure</span>
+                <span class="make-tag-pill">Spatial DH</span>
+              </div>
+            </div>
+            <div class="make-card-footer">
+              <button class="btn-text view-make-details-btn" data-week-file="week07.md">
+                View Artifact & Notes
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Week 8 -->
+          <article class="make-card" data-category="data ethics">
+            <div>
+              <div class="make-card-header">
+                <span class="make-week-tag">Week 08</span>
+                <span class="make-status-badge">Documented</span>
+              </div>
+              <h3 class="make-title">Networks of Knowledge & Power</h3>
+              <p class="make-desc">
+                Graph analysis and network topology mapping to interrogate intellectual gatekeeping, citation hierarchies, and algorithmic influence.
+              </p>
+              <div class="make-tags">
+                <span class="make-tag-pill">Graph Theory</span>
+                <span class="make-tag-pill">Power Dynamics</span>
+                <span class="make-tag-pill">Citation Networks</span>
+              </div>
+            </div>
+            <div class="make-card-footer">
+              <button class="btn-text view-make-details-btn" data-week-file="week08.md">
+                View Artifact & Notes
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Week 9 -->
+          <article class="make-card" data-category="games">
+            <div>
+              <div class="make-card-header">
+                <span class="make-week-tag">Week 09</span>
+                <span class="make-status-badge">Documented</span>
+              </div>
+              <h3 class="make-title">Bots & Generators</h3>
+              <p class="make-desc">
+                Crafting rule-based generative text engines, algorithmic Twitter/mastodon bots, and poetic automata questioning artificial agency.
+              </p>
+              <div class="make-tags">
+                <span class="make-tag-pill">Procedural Text</span>
+                <span class="make-tag-pill">Bots</span>
+                <span class="make-tag-pill">Generative Grammar</span>
+              </div>
+            </div>
+            <div class="make-card-footer">
+              <button class="btn-text view-make-details-btn" data-week-file="week09.md">
+                View Artifact & Notes
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Week 10 -->
+          <article class="make-card" data-category="games">
+            <div>
+              <div class="make-card-header">
+                <span class="make-week-tag">Week 10</span>
+                <span class="make-status-badge">Documented</span>
+              </div>
+              <h3 class="make-title">Games & Play</h3>
+              <p class="make-desc">
+                Investigating procedural rhetoric, interactive gameplay mechanics, and ludic storytelling as critical modes of humanistic persuasion.
+              </p>
+              <div class="make-tags">
+                <span class="make-tag-pill">Game Studies</span>
+                <span class="make-tag-pill">Interactive Fiction</span>
+                <span class="make-tag-pill">Procedural Rhetoric</span>
+              </div>
+            </div>
+            <div class="make-card-footer">
+              <button class="btn-text view-make-details-btn" data-week-file="week10.md">
+                View Artifact & Notes
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Week 11 -->
+          <article class="make-card" data-category="ethics">
+            <div>
+              <div class="make-card-header">
+                <span class="make-week-tag">Week 11</span>
+                <span class="make-status-badge">Documented</span>
+              </div>
+              <h3 class="make-title">AI & Labor</h3>
+              <p class="make-desc">
+                Interrogating the human substrate of AI: data labeling workers, content moderators, crowdworkers, and creative copyright disputes.
+              </p>
+              <div class="make-tags">
+                <span class="make-tag-pill">Ghost Work</span>
+                <span class="make-tag-pill">Digital Labor</span>
+                <span class="make-tag-pill">Platform Capitalism</span>
+              </div>
+            </div>
+            <div class="make-card-footer">
+              <button class="btn-text view-make-details-btn" data-week-file="week11.md">
+                View Artifact & Notes
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Week 12 -->
+          <article class="make-card" data-category="ethics">
+            <div>
+              <div class="make-card-header">
+                <span class="make-week-tag">Week 12</span>
+                <span class="make-status-badge">Documented</span>
+              </div>
+              <h3 class="make-title">AI & Ecology</h3>
+              <p class="make-desc">
+                Auditing the embodied carbon footprint, freshwater cooling costs, and electronic waste cycles tied to hyperscale computation.
+              </p>
+              <div class="make-tags">
+                <span class="make-tag-pill">Environmental DH</span>
+                <span class="make-tag-pill">Carbon Footprint</span>
+                <span class="make-tag-pill">Datacenter Ecology</span>
+              </div>
+            </div>
+            <div class="make-card-footer">
+              <button class="btn-text view-make-details-btn" data-week-file="week12.md">
+                View Artifact & Notes
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Week 13 -->
+          <article class="make-card" data-category="ethics making">
+            <div>
+              <div class="make-card-header">
+                <span class="make-week-tag">Week 13</span>
+                <span class="make-status-badge">Documented</span>
+              </div>
+              <h3 class="make-title">Futures of AI & Humanity</h3>
+              <p class="make-desc">
+                Speculative prototypes, manifesto writing, and humanistic frameworks charting cooperative and ethical futures between machine intelligence and civic life.
+              </p>
+              <div class="make-tags">
+                <span class="make-tag-pill">Speculative Design</span>
+                <span class="make-tag-pill">Manifesto</span>
+                <span class="make-tag-pill">Co-Existence</span>
+              </div>
+            </div>
+            <div class="make-card-footer">
+              <button class="btn-text view-make-details-btn" data-week-file="week13.md">
+                View Artifact & Notes
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Reflections Hub Section
+         ====================================================================== -->
+    <section class="section" id="reflections">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Critical Theory</span>
+          <h2 class="section-title">Weekly Reflections & Inquiries</h2>
+          <p class="section-subtitle">
+            Theoretical reflections contextualizing each week's hands-on making experiment with humanities literature and philosophical questions.
+          </p>
+        </div>
+
+        <div class="reflections-grid">
+          
+          <article class="reflection-card">
+            <span class="reflection-week">Week 01 Inquiry</span>
+            <h3 class="reflection-prompt-title">What Counts as "Making" in the Age of AI?</h3>
+            <p class="reflection-prompt-quote">
+              "What counts as 'making' in the age of AI? What might be gained or lost when machines actively participate in authorial craft?"
+            </p>
+            <div style="margin-top: auto;">
+              <a href="reflections/week01.md" class="btn-text">
+                Read Week 01 Reflection →
+              </a>
+            </div>
+          </article>
+
+          <article class="reflection-card">
+            <span class="reflection-week">Week 02 Inquiry</span>
+            <h3 class="reflection-prompt-title">Craft, Automation & Agency</h3>
+            <p class="reflection-prompt-quote">
+              "Investigating how automated workflows redefine traditional notions of artistic authenticity, provenance, and deliberate craftsmanship."
+            </p>
+            <div style="margin-top: auto;">
+              <a href="reflections/week02.md" class="btn-text">
+                Read Week 02 Reflection →
+              </a>
+            </div>
+          </article>
+
+          <article class="reflection-card">
+            <span class="reflection-week">Week 03 Inquiry</span>
+            <h3 class="reflection-prompt-title">The Algorithmic Mirror & Biometric Gaze</h3>
+            <p class="reflection-prompt-quote">
+              "How does automated feature extraction and classification alter how we perceive individual subjectivity and public persona?"
+            </p>
+            <div style="margin-top: auto;">
+              <a href="reflections/week03.md" class="btn-text">
+                Read Week 03 Reflection →
+              </a>
+            </div>
+          </article>
+
+          <article class="reflection-card">
+            <span class="reflection-week">Week 07 Inquiry</span>
+            <h3 class="reflection-prompt-title">The Materiality of the Cloud</h3>
+            <p class="reflection-prompt-quote">
+              "Dispelling the illusion of computation as immaterial by tracing physical minerals, cables, and geographical power concentrations."
+            </p>
+            <div style="margin-top: auto;">
+              <a href="reflections/week07.md" class="btn-text">
+                Read Week 07 Reflection →
+              </a>
+            </div>
+          </article>
+
+          <article class="reflection-card">
+            <span class="reflection-week">Week 11 Inquiry</span>
+            <h3 class="reflection-prompt-title">Hidden Labor Behind the Interface</h3>
+            <p class="reflection-prompt-quote">
+              "Analyzing the global division of digital labor that produces clean datasets and safe model outputs for commercial AI."
+            </p>
+            <div style="margin-top: auto;">
+              <a href="reflections/week11.md" class="btn-text">
+                Read Week 11 Reflection →
+              </a>
+            </div>
+          </article>
+
+          <article class="reflection-card">
+            <span class="reflection-week">Week 13 Inquiry</span>
+            <h3 class="reflection-prompt-title">Humanistic Futures for AI</h3>
+            <p class="reflection-prompt-quote">
+              "Synthesizing semester findings to construct human-centered principles for participatory AI and community governance."
+            </p>
+            <div style="margin-top: auto;">
+              <a href="reflections/week13.md" class="btn-text">
+                Read Week 13 Reflection →
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Statements & About Section
+         ====================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Ethics & Guidelines</span>
+          <h2 class="section-title">Statements & About Me</h2>
+          <p class="section-subtitle">
+            Core principles guiding research, algorithmic stewardship, environmental sustainability, and open access.
+          </p>
+        </div>
+
+        <div class="statements-grid">
+          
+          <!-- Card: About Me -->
+          <article class="statement-card">
+            <div class="statement-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+              </svg>
+            </div>
+            <h3 class="statement-title">About Danielle Baglieri</h3>
+            <p class="statement-desc">
+              Scholar and creator exploring digital culture, media history, and critical computational making. Focused on using hands-on prototypes to demystify complex systems and cultivate critical digital literacy.
+            </p>
+            <div style="margin-top: 1.25rem;">
+              <a href="pages/about.md" class="btn-text">View Full Profile →</a>
+            </div>
+          </article>
+
+          <!-- Card: How I Use AI -->
+          <article class="statement-card">
+            <div class="statement-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <h3 class="statement-title">How I Use AI Statement</h3>
+            <p class="statement-desc">
+              AI tools serve as conversational sparring partners, code syntax assistants, and brainstorming aids. All conceptual arguments, critical edits, and authorial decisions remain human-guided and transparently logged.
+            </p>
+            <div style="margin-top: 1.25rem;">
+              <a href="pages/how-i-use-ai.md" class="btn-text">Read AI Policy & Log →</a>
+            </div>
+          </article>
+
+          <!-- Card: Accessibility -->
+          <article class="statement-card">
+            <div class="statement-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+            </div>
+            <h3 class="statement-title">Accessibility Statement</h3>
+            <p class="statement-desc">
+              Committed to universal design: built with semantic HTML5 landmarks, high-contrast ratios, visible keyboard navigation focus rings, screen-reader friendly alt tags, and responsive typography across all devices.
+            </p>
+            <div style="margin-top: 1.25rem;">
+              <a href="pages/accessibility.md" class="btn-text">Read A11y Statement →</a>
+            </div>
+          </article>
+
+          <!-- Card: Sustainability -->
+          <article class="statement-card">
+            <div class="statement-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 class="statement-title">Sustainability & Ecology</h3>
+            <p class="statement-desc">
+              Prioritizing a zero-dependency, lightweight static architecture that eliminates server runtime overhead and heavy frameworks, reducing bandwidth consumption and datacenter energy footprint.
+            </p>
+            <div style="margin-top: 1.25rem;">
+              <a href="pages/sustainability.md" class="btn-text">Read Sustainability View →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Project Modal -->
+  <div class="modal-backdrop" id="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog">
+        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+      <div class="modal-tag" id="modal-tag">Weekly Make</div>
+      <h2 class="modal-title" id="modal-title">Project Title</h2>
+      <div class="modal-body" id="modal-body">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>Danielle Baglieri</strong>
+        <span>Digital Humanities 101 • Critical Making Portfolio</span>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="#hero">Home</a>
+        <a href="#resume">Resume</a>
+        <a href="#makes">Makes</a>
+        <a href="#reflections">Reflections</a>
+        <a href="#about">Ethics & About</a>
+        <a href="https://github.com/DanielleBaglieri/DH101" target="_blank" rel="noopener noreferrer">GitHub Repository ↗</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
