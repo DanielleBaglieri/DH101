@@ -1,14 +1,19 @@
 # Week 3 – Selfie & Identity
 
 ## The Artifact
-Describe or embed your artifact here.
-Include images, links, or media as appropriate.
+First Image (Description of user)
+![](../images/image-1.png)
+
+Second Image (Changed made after first image created)
+![](../images/image-2.png)
 
 ## Process Notes
 How did you make this? 
 I used ChatGPT to create an image that, in it's original idea, represents me. I used words in a prompt that describes myself.
+
 What tools did you use? 
 I mainly used ChatGPT. I also tried to use Google Gemini, but the image was not what the assignment called for. 
+
 What decisions did you make? 
 I was able to choose how I wanted to describe my desired person. I was also able to choose which AI tool to use. The class mainly was using ChatGPT but it was not limited to that too. In the edited verson of the image (The second image that was generated) I was able to use my imagination and add any sort of changes I wanted to. In my edited verson, I gave myself short, curly, purple hair. 
 
