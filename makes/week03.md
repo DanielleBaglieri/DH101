@@ -23,8 +23,13 @@ I see myself in certain aspects of the photo. For example the glasses and nose a
 
 ## Attribution & AI Use
 - Tools used: Chat GPT
+
 - AI prompts (summary): 
-First prompt: 
-Second prompt: 
+
+First prompt: create a selfie of a 19 year old Italian/Sicilian american woman. She is 5'2 and 120 pounds. She has brown hair with caramel, face-framing highlights, and her hair goes down to her mid-back. her hair is fine and straight. She has a round face with round features: eyes, a round, buttonish nose, and thinish lips. She also wears circular glasses that are tortoise colored.
+
+Second prompt: Use the exact same image. Do not change anything execpt giving this person short curly hair that is purple. 
+
 - What AI generated: Two images of a person that was described to it
+
 - What you changed or decided: In the second image, I gave myself short, curly, purple hair. 
