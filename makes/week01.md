@@ -5,6 +5,7 @@ What Is Being Made?
 
 The output of this project is mainly a graph-like image that shows how many times a certain word has appeared in media between two specific years/dates (1500-2022 at the two extreme ends). This creates a space for the user to explore and connect certain words to historical events, including something as dark as war and genocide. If you look below, you can see that the invention of television increased its presence in media and decreased the number of books you would see. 
 
+![](../images/make-1.png)
 
 ## Process Notes
 Tools, Algorithms, or Systems: 
