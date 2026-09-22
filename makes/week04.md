@@ -26,7 +26,7 @@ I used ChatGPT for the makeing of the comic. I was able to use a drawing app cal
 I was able to make choices in what the story actaully was and the captions that went along with it. This is key because it means that I was essentially in control of the beginning, middle, and end of what was provided to me from the AI. I also had teh ability to edit the image after it was generated. I could change anything that I didn't feel represented my story. 
 
 ## Reflection
-Reflect 4: Is AI a collaborator, tool, or plagiarist in storytelling?
+What did you want seen in the image? How did you use the comic to show your story? What did the project help you realize? 
 
 ## Attribution & AI Use
 - Tools used:
