@@ -29,7 +29,7 @@ What decisions did you make?
 I was able to make choices in what the story actaully was and the captions that went along with it. This is key because it means that I was essentially in control of the beginning, middle, and end of what was provided to me from the AI. I also had teh ability to edit the image after it was generated. I could change anything that I didn't feel represented my story. 
 
 ## Reflection
-Respond to this week’s reflection prompt in 200–300 words.
+Reflect 4: Is AI a collaborator, tool, or plagiarist in storytelling?
 
 ## Attribution & AI Use
 - Tools used:
