@@ -19,6 +19,8 @@ I made many decisions in this process, firtly, I cut down a scene and made it ha
 ## Reflection
 Reflect 5: How does AI alter authorship and remix culture? Who owns AI-made art?
 
+AI alters authorship and remix culture because it is becoming easier and easier for people to change things, and make it impossible for copyright actions to take place. This means that there is a possibility for many different versions of the same idea to be present, and we lack the knowledge about what is authentically human or not. Instead of having humans as the soul creators, we drop into an editor position, and AI moves towards the producer. I think that, while yes, AI is incredibly helpful when prioritizing speed and efficiency, it can distort what we know as art and creative liberty. This ties into the topic of who owns AI-made art. AI-made art is technically owned by no one. This is because you cannot get a copyright for an image that is generated purely by artificial intelligence. So, based on this logic, one can say that no one owns it because everyone owns it. This creates a complex discussion about whether the user creating the image should own it, or whether the chatbot- the thing that is actually generating the image that is being used. 
+
 What changes when an image repeats instead of standing still?
 
 You are able to really specify on one meaning. You can focus on the emotions of the people/things in the GIF and then it can apply to many different situations that you might not be able to apply to with the original scene. 
