@@ -31,9 +31,11 @@ Voyant imagines meaning as something that is “in front of your face”. It tak
 
 ## Attribution & AI Use
 Tools used: 
+
 - ChatGPT and Voyant
 
 AI prompts (summary): 
+
 - Provide a literary analysis of the text linked above, focusing on themes and imagery.
 
 What AI generated: 
@@ -43,4 +45,5 @@ What AI generated:
 - ChatGPT: An analysis that focused on the themes present in the liturature as well as the imagery. It also told me how they connected to each other. 
 
 What you changed or decided: 
+
 - I was able to choose how I wanted to precieve data (with word count). 

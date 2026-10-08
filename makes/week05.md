@@ -42,8 +42,26 @@ How does AI complicate ideas of authorship or originality?
 I think this becomes complicated because anyone can create a GIF without giving copyright credits. This means that people can be sued if the producer of the original scene/creation didn’t want people to use said scene. However, because it lack sounds, people can change certain parts of an image to make sure they cannot have any sort of copyright infringement. In addition to this, many people don’t create GIFs of themselves, so in certain mindsets, one can say that they are stealing ideas. The other side to this is that the person is all the more creative because they are able to see something that wasn’t intended. 
 
 ## Attribution & AI Use
-- Tools used: EZGIF
-- AI prompts (summary): N/A
-- What AI generated: N/A, Why was it not used? I chose to not use AI because I was worried that if I used AI the end result would never get to be what I wanted it to be. I had a clear vision of what I wanted my end result to be so I directly went to the source of what could potentially result in the end result I wanted.
-- What you changed or decided: I cut down a scene and made it have a looped/repeated effect. I also made it have a smoother effect rather than the scene being fragmented between frames. 
-- Sources of any reused material (if applicable): New Girl
+Tools used: 
+
+- EZGIF
+
+AI prompts (summary): 
+
+- N/A
+
+What AI generated: 
+
+- N/A, 
+
+Why was it not used? 
+
+- I chose to not use AI because I was worried that if I used AI the end result would never get to be what I wanted it to be. I had a clear vision of what I wanted my end result to be so I directly went to the source of what could potentially result in the end result I wanted.
+
+What you changed or decided: 
+
+- I cut down a scene and made it have a looped/repeated effect. I also made it have a smoother effect rather than the scene being fragmented between frames. 
+
+Sources of any reused material (if applicable): 
+
+- New Girl
